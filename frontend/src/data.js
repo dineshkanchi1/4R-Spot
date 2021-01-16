@@ -6,6 +6,7 @@ const data = {
             category:'Bird',
             image:'/images/bird1.jpg',
             price:120,
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description: 'high quality product'
@@ -16,6 +17,7 @@ const data = {
             category:'Bird',
             image:'/images/bird1.jpg',
             price:120,
+            countInStock:20,
             rating:5,
             numReviews:10,
             description: 'high quality product'
@@ -26,6 +28,7 @@ const data = {
             category:'Bird',
             image:'/images/bird1.jpg',
             price:120,
+            countInStock:0,
             rating:3.5,
             numReviews:10,
             description: 'high quality product'
@@ -37,6 +40,7 @@ const data = {
             image:'/images/bird1.jpg',
             price:240,
             rating:4,
+            countInStock:5,
             numReviews:10,
             description: 'high quality product'
         },
@@ -46,6 +50,7 @@ const data = {
             category:'Bird',
             image:'/images/bird1.jpg',
             price:600,
+            countInStock:2,
             rating:5,
             numReviews:10,
             description: 'high quality product'
