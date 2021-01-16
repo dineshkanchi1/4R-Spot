@@ -1,0 +1,28 @@
+{
+  "name": "4r-spot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshkanchi1/4R-Spot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dineshkanchi1/4R-Spot/issues"
+  },
+  "homepage": "https://github.com/dineshkanchi1/4R-Spot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
