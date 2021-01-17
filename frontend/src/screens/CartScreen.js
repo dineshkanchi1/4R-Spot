@@ -41,7 +41,7 @@ const CartScreen = (props) => {
                             {
                                 cartItems.map((item)=>(
                                     <li key={item.product}>
-                                        <div className="row">
+                                        <div className="row card card-body">
                                             <div>
                                                 <img src={item.image} alt={item.name} className="small"/>
                                             </div>

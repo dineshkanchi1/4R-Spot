@@ -26,5 +26,5 @@ export const signout = () => (dispatch) => {
     localStorage.removeItem('cartItems');
     dispatch({
         type: USER_SIGNOUT
-    })
+    });
 }
