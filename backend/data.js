@@ -29,7 +29,7 @@ const data = {
         {
             name:'Pigeon',
             category:'Bird',
-            image:'/images/bird1.jpg',
+            image:'/images/bird2.jpg',
             price:120,
             countInStock:20,
             rating:5,
@@ -39,7 +39,7 @@ const data = {
         {
             name:'Swallow',
             category:'Bird',
-            image:'/images/bird1.jpg',
+            image:'/images/bird3.jpg',
             price:120,
             countInStock:0,
             rating:3.5,
@@ -49,7 +49,7 @@ const data = {
         {
             name:'Crow',
             category:'Bird',
-            image:'/images/bird1.jpg',
+            image:'/images/bird4.jpg',
             price:240,
             rating:4,
             countInStock:5,
@@ -59,7 +59,7 @@ const data = {
         {
             name:'Dove',
             category:'Bird',
-            image:'/images/bird1.jpg',
+            image:'/images/bird5.jpg',
             price:600,
             countInStock:2,
             rating:5,
