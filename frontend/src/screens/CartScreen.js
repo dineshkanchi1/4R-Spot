@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from '../actions/cartActions';
+import { addToCart, removeFromCart } from '../actions/cartActions';
 import {Link} from 'react-router-dom';
 import MessageBox from '../components/MessageBox';
 
@@ -22,7 +22,7 @@ const CartScreen = (props) => {
     }, [dispatch,productId,qty]);
 
     const removeFromCartHandler = (id) => {
-
+        dispatch(removeFromCart(id));
     };
 
     const checkOutHandler = () =>{
@@ -46,7 +46,7 @@ const CartScreen = (props) => {
                                                 <img src={item.image} alt={item.name} className="small"/>
                                             </div>
                                             <div className="min-30">
-                                                <Link to={`/product/${item.product}`}>{item.name}</Link>
+                                                <Link to={`/products/${item.product}`}>{item.name}</Link>
                                             </div>
                                             <div>
                                                 <select value={item.qty} onChange={e => dispatch(addToCart(item.product,Number(e.target.value)))}>
