@@ -50,7 +50,7 @@ body{
 }
 
 .logo {
-  color: #07064b;
+  color: rgba(192, 229, 246, 1);
   font-size: 4rem;
   font-weight: bold;
   text-decoration: none;
@@ -59,7 +59,8 @@ body{
 
 header{
   grid-area:header;
-  background-color:#a7e4e0;
+  background-color:#07064b;
+  color: rgba(192, 229, 246, 1);
 }
 main{
   grid-area: main;
@@ -67,7 +68,12 @@ main{
 }
 footer{
   grid-area: footer;
-  background-color:#a7e4e0;
+  background-color:#07064b;
+  color:rgba(192, 229, 246, 1)
+}
+
+.header> div:last-child > a{
+  color:rgba(192, 229, 246, 1);
 }
 
 h1{
@@ -239,4 +245,28 @@ img.large{
 .form label {
   margin: 1rem 0;
   display: block;
+}
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+.dropdown > a{
+  color:rgba(192, 229, 246, 1)
+}
+.dropdown-content{
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: #07064b;
+  margin: 0.4rem 0.4rem 0rem 0rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  background-color: rgba(192, 229, 246, 1);
 }

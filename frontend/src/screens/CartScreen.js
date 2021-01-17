@@ -57,7 +57,7 @@ const CartScreen = (props) => {
                                                     }
                                                 </select>
                                             </div>
-                                            <div>${item.price}</div>
+                                            <div>Rs.{item.price}</div>
                                             <div>
                                                 <button type="button" onClick={() => removeFromCartHandler(item.product)}>Delete</button>
                                             </div>
